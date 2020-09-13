@@ -761,7 +761,7 @@
         },
         {
           "id": 21,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 22,
@@ -1147,7 +1147,7 @@
       "data": {
         "audio": {
           "driver": 1,
-          "deviceName": "default",
+          "deviceName": "hw:HyperX Virtual Surround Sound,0",
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 44100,
@@ -1728,7 +1728,7 @@
       "leftModuleId": 261,
       "data": {
         "moduleVersion": 1,
-        "count": 437,
+        "count": 322,
         "theme": 0
       },
       "pos": [
@@ -1755,7 +1755,7 @@
       "rightModuleId": 261,
       "data": {
         "moduleVersion": 1,
-        "count": 23,
+        "count": 279,
         "theme": 0
       },
       "pos": [
