@@ -10,8 +10,8 @@
       "leftModuleId": 28,
       "data": {
         "audio": {
-          "driver": 1,
-          "deviceName": "hw:Scarlett 2i2 USB,0",
+          "driver": 6,
+          "deviceName": "Headset Earphone (HyperX Virtual Surround Sound)",
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 44100,
@@ -188,7 +188,7 @@
         },
         {
           "id": 1,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 2,
@@ -236,7 +236,7 @@
         },
         {
           "id": 13,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 14,
@@ -248,7 +248,7 @@
         },
         {
           "id": 16,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 17,
@@ -747,7 +747,7 @@
       "leftModuleId": 237,
       "data": {
         "panelTheme": 0,
-        "running": false,
+        "running": true,
         "displayDelayNoteMode": true,
         "bpmDetectionMode": false,
         "resetOnStartStop": 0,
@@ -782,8 +782,7 @@
           }
         ],
         "midi": {
-          "driver": 2,
-          "deviceName": "Arturia KeyStep 32:Arturia KeyStep 32 MIDI 1 32:0",
+          "driver": -1,
           "channel": -1
         }
       },
@@ -898,7 +897,7 @@
       "leftModuleId": 240,
       "data": {
         "moduleVersion": 1,
-        "count": 122,
+        "count": 31,
         "theme": 0
       },
       "pos": [

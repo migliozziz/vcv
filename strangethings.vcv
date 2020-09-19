@@ -636,8 +636,7 @@
           }
         ],
         "midi": {
-          "driver": 2,
-          "deviceName": "Arturia KeyStep 32:Arturia KeyStep 32 MIDI 1 32:0",
+          "driver": -1,
           "channel": -1
         }
       },
@@ -757,7 +756,7 @@
         },
         {
           "id": 20,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 21,
@@ -765,7 +764,7 @@
         },
         {
           "id": 22,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 23,
@@ -1146,8 +1145,8 @@
       "rightModuleId": 259,
       "data": {
         "audio": {
-          "driver": 1,
-          "deviceName": "hw:HyperX Virtual Surround Sound,0",
+          "driver": 8,
+          "deviceName": "Headset Earphone (HyperX Virtual Surround Sound)",
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 44100,
@@ -1429,8 +1428,7 @@
         "lastPitch": 8192,
         "lastMod": 0,
         "midi": {
-          "driver": 2,
-          "deviceName": "Arturia KeyStep 32:Arturia KeyStep 32 MIDI 1 32:0",
+          "driver": -1,
           "channel": -1
         }
       },
@@ -1728,7 +1726,7 @@
       "leftModuleId": 261,
       "data": {
         "moduleVersion": 1,
-        "count": 322,
+        "count": 338,
         "theme": 0
       },
       "pos": [

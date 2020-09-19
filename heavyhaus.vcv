@@ -37,7 +37,6 @@
         "lastMod": 92,
         "midi": {
           "driver": 4,
-          "deviceName": "Arturia KeyStep 32 0",
           "channel": -1
         }
       },
@@ -54,7 +53,7 @@
       "params": [
         {
           "id": 0,
-          "value": 130.0
+          "value": 129.0
         },
         {
           "id": 1,
@@ -137,7 +136,7 @@
       "rightModuleId": 5,
       "data": {
         "panelTheme": 0,
-        "running": false,
+        "running": true,
         "displayDelayNoteMode": true,
         "bpmDetectionMode": false,
         "resetOnStartStop": 0,
@@ -559,7 +558,7 @@
         },
         {
           "id": 100,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 101,
@@ -575,7 +574,7 @@
         },
         {
           "id": 104,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 105,
@@ -591,7 +590,7 @@
         },
         {
           "id": 108,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 109,
@@ -1056,17 +1055,17 @@
               false,
               false,
               false,
-              true,
+              false,
               false,
               false,
               false
             ],
             [
-              false,
-              false,
-              false,
-              false,
               true,
+              false,
+              false,
+              false,
+              false,
               false,
               false,
               false
@@ -3547,7 +3546,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.754315019
+          "value": 0.988660693
         },
         {
           "id": 1,
@@ -3559,7 +3558,7 @@
         },
         {
           "id": 3,
-          "value": 0.527528882
+          "value": 0.697618484
         },
         {
           "id": 4,
@@ -3627,19 +3626,19 @@
         },
         {
           "id": 20,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 21,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 22,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 23,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 24,
@@ -3854,10 +3853,10 @@
         "groupedAuxReturnFeedbackProtection": 1,
         "ecoMode": 65535,
         "faders": [
-          0.754315019,
+          0.988660693,
           1.0,
           0.693838716,
-          0.527528882,
+          0.697618484,
           1.0,
           1.0,
           1.0,
@@ -4059,7 +4058,7 @@
         },
         {
           "id": 1,
-          "value": 0.0949999094
+          "value": 0.328999847
         },
         {
           "id": 2,
@@ -4067,11 +4066,11 @@
         },
         {
           "id": 3,
-          "value": 0.0
+          "value": 0.0284997877
         },
         {
           "id": 4,
-          "value": 0.656999707
+          "value": 0.624000311
         },
         {
           "id": 5,
@@ -4079,11 +4078,11 @@
         },
         {
           "id": 6,
-          "value": 0.22950004
+          "value": 0.213000044
         },
         {
           "id": 7,
-          "value": 0.625999928
+          "value": 0.573500097
         },
         {
           "id": 8,
@@ -4095,15 +4094,15 @@
         },
         {
           "id": 10,
-          "value": 0.628499448
+          "value": 0.759000003
         },
         {
           "id": 11,
-          "value": 0.665500164
+          "value": 0.649000168
         },
         {
           "id": 12,
-          "value": 0.100000001
+          "value": 0.11799974
         },
         {
           "id": 13,
@@ -4111,7 +4110,7 @@
         },
         {
           "id": 14,
-          "value": 0.0
+          "value": -0.179000109
         },
         {
           "id": 15,
@@ -4223,7 +4222,7 @@
         },
         {
           "id": 4,
-          "value": 1.0
+          "value": 0.55796504
         },
         {
           "id": 5,
@@ -4235,11 +4234,11 @@
         },
         {
           "id": 7,
-          "value": 0.177000016
+          "value": 0.465000093
         },
         {
           "id": 8,
-          "value": 0.230499908
+          "value": 0.204999879
         },
         {
           "id": 9,
@@ -4289,7 +4288,6 @@
         ],
         "midi": {
           "driver": 4,
-          "deviceName": "Arturia KeyStep 32 0",
           "channel": -1
         }
       },
@@ -4306,55 +4304,55 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.635939062
         },
         {
           "id": 1,
-          "value": 0.5
+          "value": 0.384809434
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": 0.282360107
         },
         {
           "id": 3,
-          "value": 10.0
+          "value": 6.45000029
         },
         {
           "id": 4,
-          "value": 10.0
+          "value": 6.82500458
         },
         {
           "id": 5,
-          "value": 0.5
+          "value": 0.033760488
         },
         {
           "id": 6,
-          "value": 10.0
+          "value": 9.59628677
         },
         {
           "id": 7,
-          "value": 0.549950004
+          "value": 0.546245933
         },
         {
           "id": 8,
-          "value": 10.0
+          "value": 6.14081097
         },
         {
           "id": 9,
-          "value": 10.0
+          "value": 2.7960043
         },
         {
           "id": 10,
-          "value": 0.0
+          "value": 0.26238203
         },
         {
           "id": 11,
-          "value": 0.5
+          "value": 0.963716388
         },
         {
           "id": 12,
-          "value": 0.5
+          "value": 13.4350824
         },
         {
           "id": 13,
@@ -4374,55 +4372,55 @@
         },
         {
           "id": 17,
-          "value": 0.0
+          "value": 0.702979684
         },
         {
           "id": 18,
-          "value": 0.0
+          "value": -0.178710341
         },
         {
           "id": 19,
-          "value": 0.0
+          "value": -0.923940778
         },
         {
           "id": 20,
-          "value": 0.0
+          "value": 0.896220326
         },
         {
           "id": 21,
-          "value": 0.0
+          "value": 0.921037912
         },
         {
           "id": 22,
-          "value": 0.0
+          "value": 0.690577388
         },
         {
           "id": 23,
-          "value": 0.0
+          "value": -0.27950716
         },
         {
           "id": 24,
-          "value": 0.0
+          "value": -0.0224999189
         },
         {
           "id": 25,
-          "value": 0.0
+          "value": -0.967849731
         },
         {
           "id": 26,
-          "value": 0.0
+          "value": -0.358900428
         },
         {
           "id": 27,
-          "value": 0.0
+          "value": 0.032332778
         },
         {
           "id": 28,
-          "value": 0.0
+          "value": 0.221356511
         },
         {
           "id": 29,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 30,
@@ -4433,8 +4431,8 @@
       "data": {
         "frozen": false,
         "freezeToggle": false,
-        "panelStyle": 0,
-        "tuned": 0,
+        "panelStyle": 1,
+        "tuned": 1,
         "diffuseInput": 1,
         "preDelayCVSens": 0,
         "inputSensitivity": 1,
@@ -4501,11 +4499,11 @@
         },
         {
           "id": 12,
-          "value": 0.583500206
+          "value": 1.0
         },
         {
           "id": 13,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 14,
@@ -4862,39 +4860,39 @@
       "params": [
         {
           "id": 0,
-          "value": -0.75
+          "value": -0.774446249
         },
         {
           "id": 1,
-          "value": 0.044122275
+          "value": -0.801681638
         },
         {
           "id": 2,
-          "value": 0.626520157
+          "value": 0.791337609
         },
         {
           "id": 3,
-          "value": 0.866500199
+          "value": 0.958742261
         },
         {
           "id": 4,
-          "value": 0.618354321
+          "value": 0.986856759
         },
         {
           "id": 5,
-          "value": 0.949000299
+          "value": 0.318318427
         },
         {
           "id": 6,
-          "value": 0.346940875
+          "value": 0.265097588
         },
         {
           "id": 7,
-          "value": 0.625000715
+          "value": 0.892154992
         },
         {
           "id": 8,
-          "value": 0.820542753
+          "value": 0.721639931
         },
         {
           "id": 9,
@@ -4939,11 +4937,11 @@
         },
         {
           "id": 3,
-          "value": 0.158889085
+          "value": 0.158888936
         },
         {
           "id": 4,
-          "value": 0.747000158
+          "value": 0.213999689
         },
         {
           "id": 5,
@@ -4959,15 +4957,15 @@
         },
         {
           "id": 8,
-          "value": -0.195126116
+          "value": -0.000126077328
         },
         {
           "id": 9,
-          "value": 0.342224926
+          "value": 0.162224874
         },
         {
           "id": 10,
-          "value": -0.701257885
+          "value": 0.261742264
         }
       ],
       "leftModuleId": 25,
@@ -4993,15 +4991,15 @@
       "params": [
         {
           "id": 0,
-          "value": 0.596871912
+          "value": 0.540000081
         },
         {
           "id": 1,
-          "value": 0.112500332
+          "value": 0.349500209
         },
         {
           "id": 2,
-          "value": 0.695523083
+          "value": 0.733023047
         },
         {
           "id": 3,
@@ -5009,11 +5007,11 @@
         },
         {
           "id": 4,
-          "value": -0.297999859
+          "value": 0.107000127
         },
         {
           "id": 5,
-          "value": -0.732999742
+          "value": -0.135999665
         },
         {
           "id": 6,
@@ -5035,7 +5033,7 @@
       "leftModuleId": 26,
       "rightModuleId": 24,
       "data": {
-        "delay_mode": 0,
+        "delay_mode": 2,
         "hold_behavior": 0,
         "sync_prescaler": 6
       },
@@ -5063,7 +5061,7 @@
       "rightModuleId": 25,
       "data": {
         "moduleVersion": 1,
-        "count": 150,
+        "count": 336,
         "theme": 0
       },
       "pos": [
@@ -5079,7 +5077,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.637000084
+          "value": 0.709000051
         },
         {
           "id": 1,
@@ -5123,7 +5121,7 @@
         },
         {
           "id": 11,
-          "value": -0.40899983
+          "value": -0.318999678
         },
         {
           "id": 12,
@@ -5166,6 +5164,59 @@
       "pos": [
         0,
         2
+      ]
+    },
+    {
+      "id": 31,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-Pressor",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.178500041
+        },
+        {
+          "id": 1,
+          "value": 0.460500091
+        },
+        {
+          "id": 2,
+          "value": 0.9197281
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.934925616
+        },
+        {
+          "id": 5,
+          "value": -0.634432197
+        },
+        {
+          "id": 6,
+          "value": 0.876919389
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "data": {},
+      "pos": [
+        105,
+        1
       ]
     }
   ],
@@ -5233,22 +5284,6 @@
       "inputModuleId": 18,
       "inputId": 1,
       "color": "#0986ad"
-    },
-    {
-      "id": 64,
-      "outputModuleId": 18,
-      "outputId": 0,
-      "inputModuleId": 19,
-      "inputId": 0,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 65,
-      "outputModuleId": 18,
-      "outputId": 1,
-      "inputModuleId": 19,
-      "inputId": 1,
-      "color": "#0c8e15"
     },
     {
       "id": 66,
@@ -5353,6 +5388,38 @@
       "inputModuleId": 21,
       "inputId": 4,
       "color": "#0986ad"
+    },
+    {
+      "id": 64,
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 31,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 65,
+      "outputModuleId": 18,
+      "outputId": 1,
+      "inputModuleId": 31,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 135,
+      "outputModuleId": 31,
+      "outputId": 1,
+      "inputModuleId": 12,
+      "inputId": 10,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 136,
+      "outputModuleId": 31,
+      "outputId": 2,
+      "inputModuleId": 12,
+      "inputId": 11,
+      "color": "#c91847"
     }
   ]
 }

@@ -1,0 +1,1777 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 0,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "Mixer8ch",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.800000012
+        },
+        {
+          "id": 1,
+          "value": 0.747000217
+        },
+        {
+          "id": 2,
+          "value": 0.800000012
+        },
+        {
+          "id": 3,
+          "value": 0.800000012
+        },
+        {
+          "id": 4,
+          "value": 0.800000012
+        },
+        {
+          "id": 5,
+          "value": 0.800000012
+        },
+        {
+          "id": 6,
+          "value": 0.800000012
+        },
+        {
+          "id": 7,
+          "value": 0.800000012
+        },
+        {
+          "id": 8,
+          "value": 0.800000012
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": -0.327000052
+        },
+        {
+          "id": 11,
+          "value": 0.258000016
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 2,
+      "data": {
+        "as_MixerMutes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        42,
+        1
+      ]
+    },
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 11,
+      "data": {
+        "audio": {
+          "driver": 7,
+          "deviceName": "Focusrite USB ASIO",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        98,
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "plugin": "Valley",
+      "version": "1.1.0",
+      "model": "Plateau",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 10.0
+        },
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 0.549950004
+        },
+        {
+          "id": 8,
+          "value": 10.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 0,
+      "rightModuleId": 10,
+      "data": {
+        "frozen": false,
+        "freezeToggle": false,
+        "panelStyle": 0,
+        "tuned": 0,
+        "diffuseInput": 1,
+        "preDelayCVSens": 0,
+        "inputSensitivity": 0,
+        "outputSaturation": 0
+      },
+      "pos": [
+        68,
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "plugin": "ImpromptuModular",
+      "version": "1.1.8",
+      "model": "Clocked",
+      "params": [
+        {
+          "id": 0,
+          "value": 93.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.5
+        },
+        {
+          "id": 10,
+          "value": 0.5
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 12,
+      "data": {
+        "panelTheme": 0,
+        "running": false,
+        "displayDelayNoteMode": true,
+        "bpmDetectionMode": true,
+        "resetOnStartStop": 0,
+        "ppqn": 24,
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "clockMaster": false
+      },
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "plugin": "21kHz",
+      "version": "1.0.1",
+      "model": "kHzPalmLoop",
+      "params": [
+        {
+          "id": 0,
+          "value": 8.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "pos": [
+        19,
+        3
+      ]
+    },
+    {
+      "id": 8,
+      "plugin": "VultModulesFree",
+      "version": "1.11",
+      "model": "Tangents",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.202500105
+        },
+        {
+          "id": 1,
+          "value": 0.128500372
+        },
+        {
+          "id": 2,
+          "value": 0.552000165
+        },
+        {
+          "id": 3,
+          "value": -0.0300000217
+        },
+        {
+          "id": 4,
+          "value": 1.40400124
+        },
+        {
+          "id": 5,
+          "value": 0.0789998025
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 13,
+      "pos": [
+        28,
+        3
+      ]
+    },
+    {
+      "id": 9,
+      "plugin": "cf",
+      "version": "1.1.1",
+      "model": "MONO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.525000453
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 10,
+      "rightModuleId": 11,
+      "data": {
+        "solostate": 0,
+        "onstate": 1
+      },
+      "pos": [
+        86,
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "plugin": "cf",
+      "version": "1.1.1",
+      "model": "STEREO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.71499658
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 2,
+      "rightModuleId": 9,
+      "data": {
+        "solostate": 0,
+        "onstate": 1
+      },
+      "pos": [
+        80,
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "plugin": "cf",
+      "version": "1.1.1",
+      "model": "MONO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 5.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 9,
+      "rightModuleId": 1,
+      "data": {
+        "solostate": 0,
+        "onstate": 1
+      },
+      "pos": [
+        92,
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "MIDIToCVInterface",
+      "params": [],
+      "leftModuleId": 3,
+      "rightModuleId": 14,
+      "data": {
+        "channels": 1,
+        "polyMode": 0,
+        "clockDivision": 24,
+        "lastPitch": 8192,
+        "lastMod": 0,
+        "midi": {
+          "driver": 4,
+          "deviceName": "Arturia BeatStep Pro 1",
+          "channel": 9
+        }
+      },
+      "pos": [
+        20,
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "Flow",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 8,
+      "data": {
+        "as_FlowStates": [
+          1,
+          1
+        ]
+      },
+      "pos": [
+        38,
+        3
+      ]
+    },
+    {
+      "id": 14,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-UMix",
+      "params": [],
+      "leftModuleId": 12,
+      "data": {
+        "clipping_mode": 0,
+        "input_gain_db": 0.0,
+        "sum": true
+      },
+      "pos": [
+        28,
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-FMOp",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.126000121
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.141421005
+        },
+        {
+          "id": 3,
+          "value": 0.316229999
+        },
+        {
+          "id": 4,
+          "value": 0.670000017
+        },
+        {
+          "id": 5,
+          "value": 0.316229999
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.300000042
+        },
+        {
+          "id": 8,
+          "value": 0.812499762
+        },
+        {
+          "id": 9,
+          "value": 1.0
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 18,
+      "rightModuleId": 20,
+      "data": {
+        "linearLevel": false
+      },
+      "pos": [
+        70,
+        3
+      ]
+    },
+    {
+      "id": 18,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "MIDIToCVInterface",
+      "params": [],
+      "rightModuleId": 17,
+      "data": {
+        "channels": 1,
+        "polyMode": 0,
+        "clockDivision": 24,
+        "lastPitch": 8192,
+        "lastMod": 0,
+        "midi": {
+          "driver": 4,
+          "deviceName": "Arturia BeatStep Pro 1",
+          "channel": 0
+        }
+      },
+      "pos": [
+        62,
+        3
+      ]
+    },
+    {
+      "id": 19,
+      "plugin": "squinkylabs-plug1",
+      "version": "1.0.12",
+      "model": "squinkylabs-ev3",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.231835127
+        },
+        {
+          "id": 1,
+          "value": 0.689362288
+        },
+        {
+          "id": 2,
+          "value": 0.78920275
+        },
+        {
+          "id": 3,
+          "value": -3.0
+        },
+        {
+          "id": 4,
+          "value": 3.0
+        },
+        {
+          "id": 5,
+          "value": -0.618985653
+        },
+        {
+          "id": 6,
+          "value": 0.669848323
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 3.0
+        },
+        {
+          "id": 9,
+          "value": -0.394619346
+        },
+        {
+          "id": 10,
+          "value": -0.867871165
+        },
+        {
+          "id": 11,
+          "value": -5.0
+        },
+        {
+          "id": 12,
+          "value": -8.0
+        },
+        {
+          "id": 13,
+          "value": 0.249096394
+        },
+        {
+          "id": 14,
+          "value": 0.0229741335
+        },
+        {
+          "id": 15,
+          "value": 1.0
+        },
+        {
+          "id": 16,
+          "value": 4.0
+        },
+        {
+          "id": 17,
+          "value": 0.461672664
+        },
+        {
+          "id": 18,
+          "value": -0.120453596
+        },
+        {
+          "id": 19,
+          "value": 2.0
+        },
+        {
+          "id": 20,
+          "value": -11.0
+        },
+        {
+          "id": 21,
+          "value": -0.866229415
+        },
+        {
+          "id": 22,
+          "value": 0.109392047
+        },
+        {
+          "id": 23,
+          "value": 1.0
+        },
+        {
+          "id": 24,
+          "value": 4.0
+        },
+        {
+          "id": 25,
+          "value": -0.608515501
+        },
+        {
+          "id": 26,
+          "value": 0.592330337
+        }
+      ],
+      "leftModuleId": 20,
+      "rightModuleId": 22,
+      "pos": [
+        88,
+        3
+      ]
+    },
+    {
+      "id": 20,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "MIDIToCVInterface",
+      "params": [],
+      "leftModuleId": 17,
+      "rightModuleId": 19,
+      "data": {
+        "channels": 1,
+        "polyMode": 0,
+        "clockDivision": 24,
+        "lastPitch": 8192,
+        "lastMod": 0,
+        "midi": {
+          "driver": 4,
+          "deviceName": "Arturia BeatStep Pro 1",
+          "channel": 1
+        }
+      },
+      "pos": [
+        80,
+        3
+      ]
+    },
+    {
+      "id": 22,
+      "plugin": "VultModulesFree",
+      "version": "1.11",
+      "model": "Tangents",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.340999961
+        },
+        {
+          "id": 1,
+          "value": 0.339000046
+        },
+        {
+          "id": 2,
+          "value": 0.375999749
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.24600026
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 19,
+      "rightModuleId": 25,
+      "pos": [
+        106,
+        3
+      ]
+    },
+    {
+      "id": 25,
+      "plugin": "VultModulesFree",
+      "version": "1.11",
+      "model": "Spank",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 22,
+      "pos": [
+        116,
+        3
+      ]
+    },
+    {
+      "id": 26,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "MIDITriggerToCVInterface",
+      "params": [],
+      "rightModuleId": 33,
+      "data": {
+        "notes": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          45,
+          46,
+          47,
+          40,
+          41,
+          42,
+          43,
+          36,
+          37,
+          38,
+          39
+        ],
+        "velocity": false,
+        "midi": {
+          "driver": 4,
+          "deviceName": "Arturia BeatStep Pro 1",
+          "channel": 2
+        }
+      },
+      "pos": [
+        14,
+        2
+      ]
+    },
+    {
+      "id": 33,
+      "plugin": "Hora-PCMDrumFree",
+      "version": "1.0.2",
+      "model": "Hora-PCMDrumLDrum",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 2.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 26,
+      "rightModuleId": 34,
+      "pos": [
+        24,
+        2
+      ]
+    },
+    {
+      "id": 34,
+      "plugin": "Hora-treasureFree",
+      "version": "1.0.2",
+      "model": "SnareDrum-VCV",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 1500.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.00999999978
+        },
+        {
+          "id": 5,
+          "value": 0.805000007
+        },
+        {
+          "id": 6,
+          "value": 0.800000012
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.50999999
+        },
+        {
+          "id": 9,
+          "value": 0.677399993
+        },
+        {
+          "id": 10,
+          "value": 0.800000012
+        },
+        {
+          "id": 11,
+          "value": 0.800000012
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.583000004
+        }
+      ],
+      "leftModuleId": 33,
+      "pos": [
+        32,
+        2
+      ]
+    },
+    {
+      "id": 35,
+      "plugin": "Hora-treasureFree",
+      "version": "1.0.2",
+      "model": "HiHat",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.399200141
+        },
+        {
+          "id": 1,
+          "value": 0.507600486
+        },
+        {
+          "id": 2,
+          "value": 0.681020021
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 1.61199963
+        },
+        {
+          "id": 7,
+          "value": 0.696499705
+        },
+        {
+          "id": 8,
+          "value": 0.850000024
+        },
+        {
+          "id": 9,
+          "value": 0.583800375
+        },
+        {
+          "id": 10,
+          "value": 0.100000001
+        },
+        {
+          "id": 11,
+          "value": 0.421000004
+        }
+      ],
+      "pos": [
+        43,
+        2
+      ]
+    },
+    {
+      "id": 36,
+      "plugin": "Hora-treasureFree",
+      "version": "1.0.2",
+      "model": "SoftBell",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.89601171
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.746096015
+        },
+        {
+          "id": 3,
+          "value": 0.443656832
+        },
+        {
+          "id": 4,
+          "value": 0.800000012
+        },
+        {
+          "id": 5,
+          "value": 0.0685461164
+        },
+        {
+          "id": 6,
+          "value": 0.153096467
+        },
+        {
+          "id": 7,
+          "value": 0.638460398
+        },
+        {
+          "id": 8,
+          "value": 0.024774868
+        }
+      ],
+      "pos": [
+        54,
+        2
+      ]
+    },
+    {
+      "id": 38,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "MIDICCToCVInterface",
+      "params": [],
+      "data": {
+        "ccs": [
+          10,
+          74,
+          71,
+          76,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          42,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          126,
+          4,
+          25,
+          127,
+          4,
+          11,
+          8,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "midi": {
+          "driver": 4,
+          "deviceName": "Arturia BeatStep Pro 1",
+          "channel": 9
+        }
+      },
+      "pos": [
+        47,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 11,
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 6,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 19,
+      "outputModuleId": 0,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 34,
+      "outputModuleId": 0,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 38,
+      "outputModuleId": 10,
+      "outputId": 1,
+      "inputModuleId": 9,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "id": 39,
+      "outputModuleId": 10,
+      "outputId": 2,
+      "inputModuleId": 9,
+      "inputId": 6,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 40,
+      "outputModuleId": 9,
+      "outputId": 1,
+      "inputModuleId": 11,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 41,
+      "outputModuleId": 9,
+      "outputId": 2,
+      "inputModuleId": 11,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 42,
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 43,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 31,
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 8,
+      "color": "#c91847"
+    },
+    {
+      "id": 32,
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 10,
+      "inputId": 9,
+      "color": "#0986ad"
+    },
+    {
+      "id": 51,
+      "outputModuleId": 11,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 53,
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 46,
+      "outputModuleId": 7,
+      "outputId": 4,
+      "inputModuleId": 13,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 12,
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 54,
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 55,
+      "outputModuleId": 13,
+      "outputId": 1,
+      "inputModuleId": 9,
+      "inputId": 8,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 56,
+      "outputModuleId": 12,
+      "outputId": 9,
+      "inputModuleId": 14,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 57,
+      "outputModuleId": 12,
+      "outputId": 10,
+      "inputModuleId": 14,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 63,
+      "outputModuleId": 14,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 64,
+      "outputModuleId": 14,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 5,
+      "color": "#c91847"
+    },
+    {
+      "id": 66,
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 17,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 67,
+      "outputModuleId": 18,
+      "outputId": 1,
+      "inputModuleId": 17,
+      "inputId": 5,
+      "color": "#c91847"
+    },
+    {
+      "id": 68,
+      "outputModuleId": 18,
+      "outputId": 2,
+      "inputModuleId": 17,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 69,
+      "outputModuleId": 17,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 75,
+      "outputModuleId": 20,
+      "outputId": 0,
+      "inputModuleId": 19,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 76,
+      "outputModuleId": 19,
+      "outputId": 0,
+      "inputModuleId": 22,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 78,
+      "outputModuleId": 20,
+      "outputId": 2,
+      "inputModuleId": 22,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 77,
+      "outputModuleId": 22,
+      "outputId": 0,
+      "inputModuleId": 25,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 72,
+      "outputModuleId": 20,
+      "outputId": 1,
+      "inputModuleId": 25,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 73,
+      "outputModuleId": 25,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 7,
+      "color": "#0986ad"
+    },
+    {
+      "id": 81,
+      "outputModuleId": 20,
+      "outputId": 2,
+      "inputModuleId": 19,
+      "inputId": 6,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 85,
+      "outputModuleId": 26,
+      "outputId": 0,
+      "inputModuleId": 33,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 86,
+      "outputModuleId": 33,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 8,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 87,
+      "outputModuleId": 26,
+      "outputId": 1,
+      "inputModuleId": 34,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 88,
+      "outputModuleId": 34,
+      "outputId": 2,
+      "inputModuleId": 0,
+      "inputId": 10,
+      "color": "#c91847"
+    },
+    {
+      "id": 89,
+      "outputModuleId": 26,
+      "outputId": 2,
+      "inputModuleId": 35,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 90,
+      "outputModuleId": 26,
+      "outputId": 3,
+      "inputModuleId": 35,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 92,
+      "outputModuleId": 35,
+      "outputId": 2,
+      "inputModuleId": 0,
+      "inputId": 13,
+      "color": "#0986ad"
+    },
+    {
+      "id": 93,
+      "outputModuleId": 26,
+      "outputId": 4,
+      "inputModuleId": 36,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 94,
+      "outputModuleId": 36,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 16,
+      "color": "#c91847"
+    },
+    {
+      "id": 95,
+      "outputModuleId": 38,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 96,
+      "outputModuleId": 38,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 5,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 97,
+      "outputModuleId": 38,
+      "outputId": 2,
+      "inputModuleId": 0,
+      "inputId": 8,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 98,
+      "outputModuleId": 38,
+      "outputId": 3,
+      "inputModuleId": 9,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 13,
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 105,
+      "outputModuleId": 11,
+      "outputId": 2,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0986ad"
+    }
+  ]
+}
